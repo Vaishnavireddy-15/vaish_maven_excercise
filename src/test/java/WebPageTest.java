@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertTrue;
-public class WebpageTest {
+public class WebPageTest {
     private static WebDriver driver;
     @BeforeTest
     public void openBrowser() throws InterruptedException {
@@ -15,7 +15,7 @@ public class WebpageTest {
         driver.manage().window().maximize();
         Thread.sleep(2000);
         driver.get("https://sauravsarkar-codersarcade.github.io/CA-MVN/"); // "Note: You should use your
-        GITHUB-URL here...!!!"
+        //GITHUB-URL here...!!!"
     }
 
     @Test
